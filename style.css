@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 1px black;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('./images/first.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    width: 100%;
+    height: 60dvh;
+    color: white;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+    padding: 5px 13px;
+    background-color: #1D3557;
+    border-radius: 10px;
+}
+.hero-section-text {
+    font-size: 3em;
+    margin: 11px 0  0 0;
+    padding: 10px 39px;
+    background-color: #457B9D;
+    border-radius: 10px;
+}
+
+/* ---------SECOND SECTION STARTS HERE ---------*/
+
+.achivments {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    min-height: 65dvh;
+    background-color: #F1FAEE;
+    color: #1D3557;
+}
+
+.achivments-heading {
+    font-size: 3em;
+    font-weight: 700;
+    margin: 0;
+    padding: 40px 0 55px 0;
+}
+
+.achivments-block {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap: 10%;
+}
+
+.achivments-block-item {
+    margin: 50px 0 0 0;
+
+}
+.achivments-block-item-img {
+    border-radius: 50%;
+    width: 250px;
+
+}
+
+.achivments-block-item-heading {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 22px 0 16px 0;
+
+}
+.achivments-block-item-description {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+/* --------- THIRD SECTION STYLES --------- */
+
+.guide {
+    width: 55dvw;
+    margin: 0 auto;
+    color: #1D3557;
+}
+
+.guide-block {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0 55px 0;
+    padding: 36px 23px;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    box-shadow: 0 9px 0 #1D3557;
+}
+
+.guide-block-text {
+    margin-left: 7px;
+}
+
+.guide-block-text h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.guide-block-text p {
+    font-size: 2em;
+}
+
+#name {
+    display: block;
+    margin-top: 26px;
+    font-weight: 700;
+}
