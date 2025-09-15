@@ -36,7 +36,7 @@ h1 {
 
 /* ---------SECOND SECTION STARTS HERE ---------*/
 
-.achivments {
+.achievements {
     /* display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,37 +46,37 @@ h1 {
     color: #1D3557;
 }
 
-.achivments-heading {
+.achievements-heading {
     font-size: 3em;
     font-weight: 700;
     margin: 0;
     padding: 40px 0 55px 0;
 }
 
-.achivments-block {
+.achievements-block {
     display: flex;
     flex-direction: row;
     /* align-items: center; */
     gap: 10%;
 }
 
-.achivments-block-item {
+.achievements-block-item {
     margin: 50px 0 0 0;
 
 }
-.achivments-block-item-img {
+.achievements-block-item-img {
     border-radius: 50%;
     width: 250px;
 
 }
 
-.achivments-block-item-heading {
+.achievements-block-item-heading {
     font-size: 1.5em;
     font-weight: 700;
     margin: 22px 0 16px 0;
 
 }
-.achivments-block-item-description {
+.achievements-block-item-description {
     font-size: 1.5em;
     font-weight: 400;
 }
